@@ -1,0 +1,189 @@
+*{margin: 0px; padding: 0px}
+
+/*home page*/
+body {
+  background-color: #fff;
+}
+
+.home-container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.banner,
+.banner-info {
+  width: 100%;
+  height: 224px;
+}
+
+.banner {
+  background-image: url(../img/home_banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-home-title {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 121px;
+  color: #fff;
+  font-family: "Runda Light";
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.banner-subtitle {
+  font-family: "Runda";
+  font-weight: bold;
+  font-size: 11px;
+  color: #AAB5E0;
+  padding-left: 23px;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+
+.way {
+  height: 142px;
+  width: 90%;
+  margin: 25px auto;
+  box-shadow: 3px 3px 6px 1px #ccc; 
+}
+
+.way-left {
+  width: 51%;
+  height: 142px;
+  float: left;
+  background-image: url(../img/navigation-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.way-left img {
+  width: 100%;
+}
+
+.way-right {
+  width: 49%;
+  height: 142px;
+  float: right;
+  padding: 9px 2.5%;
+}
+
+.way-title {
+  font-family: "Runda Medium";
+  font-size: 14px;
+  line-height: 23px;
+  color: #454545;
+  margin-bottom: 0;
+}
+
+.way-title-small {
+  font-family: "Runda";
+  font-size: 10px;
+  line-height: 13px;
+  color: #8B8B8B;
+  margin-bottom: 0;
+}
+
+.way-link {
+  margin-top: 29px;
+}
+
+.way-link a {
+  font-family: "Runda Medium";
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #162858;
+  padding: 19px 19.5%;
+  border-radius: 2px;
+}
+
+.check-point {
+  width: 90%;
+  margin: 45px auto 0;
+}
+
+.check-point .row {
+  margin-left: -2%;
+  margin-right: -2%;
+}
+
+.check-point-item {
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.check-point-detail {
+  background-color: #353a50;
+  height: 77px;
+  border-radius: 7px;
+}
+
+.check-point-detail p {
+  font-family: "Runda";
+  font-size: 12px;
+  color: #fff;
+  margin: 6px 0 0 0;
+}
+
+.check-point-detail img {
+  margin-top: 15px;
+  height: 32px;
+}
+
+.registration-details-link {
+  text-align: center;
+  width: 87%;
+  margin: 4% auto 0;
+  padding: 5px;
+  background-color: #162858;
+  border-radius: 10px;
+}
+
+.registration-details-link a {
+  font-family: "Runda";
+  font-size: 24px;
+  color: #fff;
+}
+
+.home-start-link {
+  text-align: center;
+  width: 87%;
+  margin: 6% auto 0;
+  padding: 9px;
+  background-color: #ff6969;
+  border-radius: 10px;
+}
+
+.home-start-link a {
+  font-family: "Runda";
+  font-size: 15px;
+  color: #fff;
+}
+
+.home-start-link a span {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+footer {
+  margin: 36px 0 16px;
+}
+
+.footer-contain {
+  width: 87%;
+  margin: auto;
+}
+
+.footer-item {
+  font-family: "Runda";
+  font-size: 12px;
+  color: #acacb7;
+  width: 25%;
+}
+

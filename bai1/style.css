@@ -1,0 +1,77 @@
+*{margin: 0px; padding: 0px}
+
+  /* header */
+  .header {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+/* header -texxt*/
+.header-text {
+    float: right;
+    margin: 274px auto;
+}
+
+.form_register{
+  padding: 11px;
+  width: 40%;
+  border-radius: 11px;
+  margin: auto;
+  margin-top: 6%;
+  border: 1px solid #8080801c;
+  box-shadow: 14px 16px 37px #808080a6;
+  margin-bottom: 6%;
+}
+
+.error{
+    color: red;
+}
+
+.date{
+  border: 1px red solid;
+}
+
+input.form-control.birthday {
+    width: 20%;
+    display: inline-flex;
+    text-align: center;
+}
+
+input.form-control.gender {
+    width: 20%;
+    display: inline-flex;
+    text-align: center;
+}
+
+button.btn.btn-success {
+    width: 80%;
+    margin-left: 10%;
+}
+
+/*home page*/
+.main {
+    margin-top: 5%;
+}
+
+button.btn.btn-success.main-btn {
+    width: 8%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+input[type="checkbox"] {
+    margin-left: 3vw;
+}
+
+/*footer*/
+.footer {
+    background: #000000e6;
+    color: white;
+    padding: 30px;
+}
